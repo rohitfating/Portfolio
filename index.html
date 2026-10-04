@@ -1,81 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohit's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <div class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-</header>
+    <header>
+        <div class="navbar">
 
-<section id="hero">
-     <div class="container">
+            <nav class="nav-tabs" aria-label="Main">
+                <input type="radio" id="nav-home" name="nav" data-target="hero" checked>
+                <label class="nav-tab" for="nav-home">Home</label>
 
-     </div>
-</section>
+                <input type="radio" id="nav-about" name="nav" data-target="about">
+                <label class="nav-tab" for="nav-about">About</label>
 
-<section id="about">
-     <div class="container">
+                <input type="radio" id="nav-projects" name="nav" data-target="projects">
+                <label class="nav-tab" for="nav-projects">Projects</label>
 
-        <h2>About Me</h2>
-        <p>#KUCH BHI DAAL DE</p>
-     </div>
-</section>
+                <input type="radio" id="nav-contact" name="nav" data-target="contact">
+                <label class="nav-tab" for="nav-contact">Contact</label>
 
-<section id="projects">
-    <div class="container">
-        <h2>My projects</h2>
-        <div class="projects-container"></div>
-    </div>
-</section>
+                <span class="glider"></span>
+            </nav>
+        </div>
+    </header>
 
-<section id="contact">
-   <div class="container">
-      <h2>Contact Me</h2>
-      <p>I'm always open to discussing new projects or opportunities</p>
+    <section id="hero">
+        <div class="container">
 
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+        </div>
+    </section>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+    <section id="about">
+        <div class="container">
 
-        <label for="message">Message</label>
-        <textarea id="message" name="user_message" rows="5" placeholder="Your Message" required></textarea>
+            <h2>About Me</h2>
+            <p>
+                Hi! I’m an IT student and aspiring Full-Stack Developer who enjoys turning ideas into interactive,
+                useful, and visually engaging web experiences.
 
-        <button type="submit">Send Message</button>
+                I’m currently building my skills across the full-stack development ecosysystem, working with
+                technologies like HTML, CSS, JavaScript, React, Node.js, Express, and databases. I enjoy
+                understanding how things work behind the scenes—from designing clean and responsive interfaces to
+                building APIs and managing data on the backend.
 
-      </form>
+                Beyond coding, I’m constantly exploring new technologies, working on projects, and improving my
+                problem-solving skills through Data Structures & Algorithms. I believe the best way to learn
+                development is by building, experimenting, breaking things, and figuring out how to make them better.
 
-   </div>
-</section>
+                🚀 My goal: To become a skilled Full-Stack Developer who can transform real-world problems into
+                simple, scalable, and impactful digital solutions.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My projects</h2>
+            <div class="projects-container"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>I'm always open to discussing new projects or opportunities</p>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="user_email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="user_message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+    </section>
 
 
-<footer>
-    <div class="container">
-         <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-         <ul>
-              <li><a href="#" target="_blank">GitHub</a></li>
-              <li><a href="#" target="_blank">LinkedIn</a></li>
-              <li><a href="#" target="_blank">Twitter</a></li>
-         </ul>
-    </div>
-</footer>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#" target="_blank">GitHub</a></li>
+                <li><a href="#" target="_blank">LinkedIn</a></li>
+                <li><a href="#" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
 
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
